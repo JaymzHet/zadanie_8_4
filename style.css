@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+body {
+	margin: 0;
+	background-color: #FFFEAA;
+	font-family: 'Roboto'; 
+}
+.container {
+	margin: 0 auto;
+	max-width: 700px;
+	background-color: #FFF;
+}
+header {
+	padding: 30px;
+	background-image: url(https://images.pexels.com/photos/746529/pexels-photo-746529.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+}
+header h1 {
+	font-weight: bold;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+header h1, header p {
+	text-align: center;
+    color: white;
+}
+section {
+	padding: 0 20%;
+}
+.about h2 {
+	color: #D4D46A;
+	margin-top: 60px;
+	font-size: 28px
+}
+.interests h2 {
+	color: #807F15; 
+	margin-top: 40px;
+}
+footer {
+	margin-top: 60px;
+	padding: 30px;
+	background: #807F15;
+}
+footer p {
+	text-align: center;
+	color: #FFFEAA;
+}
+footer a {
+	text-decoration: none;
+	color: #555400;
+	font-weight: bold;
+}
+h1, h2 {
+	font-family: 'Oswald'
+}
